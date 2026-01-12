@@ -13,7 +13,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.14'
+          python-version: '3.11'
       - name: Dependency Management
         run: |
           python -m pip install --upgrade pip
@@ -29,7 +29,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.14'
+          python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Automatic Testing
